@@ -1,0 +1,43 @@
+Loaded 9209 spots
+shape: (9209, 4)
+error mean: 0.092973 median: 0.058066
+using error cutoff value: 0.116132
+ie mean: 0.205394 median: 0.210000
+cf mean: 0.112580 median: 0.120000
+dr mean: 0.021349 median: 0.025000
+loaded 9209 reads
+generating hash list...
+mapping reads...
+mapped 4927 out of 9209 reads
+num filtered: 4903  forward: 4903  rcomp: 24
+filtered
+50 6Q30.00
+100 6Q30.00
+50 10Q30.00
+100 10Q30.00
+1000 12Q13.21
+4903 filtered reads with avg q-score at full length: 4.06  len5: 23.42  len10: 10.55
+base counts: A: 18692  C: 18237  G: 19962  T: 21557
+
+len 5 perfect: 815
+len 6 perfect: 319
+len 7 perfect: 281
+len 8 perfect: 698
+len 9 perfect: 390
+len 10 perfect: 615
+len 11 perfect: 173
+len 12 perfect: 9
+len 13 perfect: 88
+len 14 perfect: 17
+len 15 perfect: 47
+len 16 perfect: 9
+len 17 perfect: 0
+pos 0: 2694 reads
+pos 16: 882 reads
+pos 32: 850 reads
+pos 48: 477 reads
+all: 4903 10Q10.55
+cheat filtered: 1593 10Q22.15
+HQ reads:
+2898,2257,6760,4039,2064,4212,6864,3145,2480,8994,8337,7645,2409,1406,2784,8154,6440,4777,3631,2497
+real filtered: 1859 10Q13.40

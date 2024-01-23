@@ -1,0 +1,49 @@
+
+<html lang="en-US">
+<head>
+<style>
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+</style>
+</head>
+<body>
+        
+<h1>Analysis Report</h1>
+<div>
+<h2>phase parameter estimation</h2><br><div class="row">
+<div class="column">
+<img src="err.png"><br>
+<center>phase fit error</center></div>
+</div>
+<div class="row">
+<div class="column">
+<img src="ie.png"><br>
+<center>incomplete extension estimates</center></div>
+<div class="column">
+<img src="cf.png"><br>
+<center>carry-forward estimates</center></div>
+<div class="column">
+<img src="dr.png"><br>
+<center>signal loss estimates</center></div>
+</div>
+</div>
+<div>
+<h2>Alignment</h2><br><div class="row">
+<div class="column">
+<img src="coverage.png"><br>
+<center>coverage from all reads</center></div>
+<div class="column">
+<img src="filtered_coverage.png"><br>
+<center>filtered read coverage</center></div>
+<div class="column">
+<img src="coverage_top_50Q10.png"><br>
+<center>coverage from top 50 Q10 reads</center></div>
+</div>
+</div>
+<div>
+<h2>Run Log</h2><br><code><pre><br>Loaded 9209 spots<br>shape: (9209, 4)<br>error mean: 0.092973 median: 0.058066<br>using error cutoff value: 0.116132<br>ie mean: 0.205394 median: 0.210000<br>cf mean: 0.112580 median: 0.120000<br>dr mean: 0.021349 median: 0.025000<br>loaded 9209 reads<br>generating hash list...<br>mapping reads...<br>mapped 4927 out of 9209 reads<br>num filtered: 4903  forward: 4903  rcomp: 24<br>filtered<br>50 6Q30.00<br>100 6Q30.00<br>50 10Q30.00<br>100 10Q30.00<br>1000 12Q13.21<br>4903 filtered reads with avg q-score at full length: 4.06  len5: 23.42  len10: 10.55<br>base counts: A: 18692  C: 18237  G: 19962  T: 21557<br><br>len 5 perfect: 815<br>len 6 perfect: 319<br>len 7 perfect: 281<br>len 8 perfect: 698<br>len 9 perfect: 390<br>len 10 perfect: 615<br>len 11 perfect: 173<br>len 12 perfect: 9<br>len 13 perfect: 88<br>len 14 perfect: 17<br>len 15 perfect: 47<br>len 16 perfect: 9<br>len 17 perfect: 0<br>pos 0: 2694 reads<br>pos 16: 882 reads<br>pos 32: 850 reads<br>pos 48: 477 reads<br>all: 4903 10Q10.55<br>cheat filtered: 1593 10Q22.15<br>HQ reads:<br>2898,2257,6760,4039,2064,4212,6864,3145,2480,8994,8337,7645,2409,1406,2784,8154,6440,4777,3631,2497<br>real filtered: 1859 10Q13.40<br></pre></code><br></div>
+</body>
